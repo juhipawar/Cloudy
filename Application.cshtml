@@ -1,0 +1,45 @@
+﻿@{
+    Layout = null;
+}
+<a href="~/Controllers/MBRsController.cs"></a>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Application</title>
+
+    @*@Scripts.Render("~Application.js")*@
+    <script type="text/javascript" src="~/Scripts/Application.js"></script>
+
+</head>
+<body>
+
+    <form role="form">
+        <center>
+            <h2>Fill your Application</h2>
+            <label>Enter the name: </label>
+            <input type="text" name="name" id="name" tabindex="1" required>
+            <br />
+            <br />
+            <label>Enter the employer name: </label>
+            <input type="text" name="employer_name" id="employer_name" tabindex="2" required>
+            <br /><br />
+            <label>Enter the insurance company name:</label>
+            <input type="text" name="insurance_name" id="insurance_name" tabindex="3" required>
+
+            <br /><br />
+            <label>Enter phone Number:</label>
+            <input type="number" name="phoneNumber" id="phoneNumber" tabindex="4" required>
+            <br /><br />
+            <label>Enter Address:</label>
+            <input type="text" name="address" id="address" tabindex="5" required>
+            <br /><br />
+            <div>
+                <button type="submit" value="submit" onclick="return Appli();">Submit</button>
+            </div>
+            <br /><br />
+        </center>
+    </form>
+</body>
+</html>

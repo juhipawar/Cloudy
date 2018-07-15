@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = null;
+}
+<a href="~/Controllers/EmployersController.cs"></a>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Employer</title>
+    @*@Scripts.Render("~Employer.js")*@
+    <script type="text/javascript" src="Employer.js"></script>
+</head>
+<body>
+    <label>Enter Employee ID</label>
+    <input type="text" name="employeeID" id="employeeID"  tabindex="2" required>
+
+    <button type="submit" value="submit" onclick="return GetEmployeData();" tabindex="12">Submit</button>
+
+</body>
+</html>
